@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 
 const GetWeatherData = ({ setWeatherData, IPData, tempScale }) => {
-    const forecastBaseURL = "https://my-server.tld/v1/dwd-icon";
+    const forecastBaseURL = "https://api.open-meteo.com/v1/forecast";
     let forecastParams =
         "&current=temperature_2m,apparent_temperature,is_day,relative_humidity_2m,wind_speed_10m&hourly=temperature_2m,precipitation_probability&daily=precipitation_probability_max,weather_code,temperature_2m_max,temperature_2m_min&&timezone=autoforecast_days=14&current=weather_code&hourly=weather_code&daily=weather_code&wind_speed_unit=mph";
 
