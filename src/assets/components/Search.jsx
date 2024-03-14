@@ -44,10 +44,10 @@ const Search = ({ setSearchResults, searchResults, clearInput }) => {
                 id="search_input_form"
                 type="text"
                 placeholder="city, state, county, etc.."
-                autoComplete="off"
+                autoComplete="on"
                 onChange={(e) => setSearchStr(e.target.value)}
                 value={searchStr}
-                spellCheck="false"
+                spellCheck="true"
             ></input>
             <button type="submit" className="btn_search">
                 <FontAwesomeIcon icon={faMagnifyingGlass} />
