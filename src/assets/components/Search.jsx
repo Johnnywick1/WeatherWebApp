@@ -44,7 +44,7 @@ const Search = ({ setSearchResults, searchResults, clearInput }) => {
                 id="search_input_form"
                 type="text"
                 placeholder="city, state, county, etc.."
-                autoComplete="off"
+               
                 onChange={(e) => setSearchStr(e.target.value)}
                 value={searchStr}
                 spellCheck="false"
