@@ -603,7 +603,7 @@ const DisplayData = ({
                                 <div className="CC_wind_title">Wind</div>
                                 <div className="CC_wind_icon">{icons.wind}</div>
                                 <div className="CC_wind_data">
-                                    {currentWindSpeed} mph
+                                    {currentWindSpeed} kph
                                 </div>
                             </div>
                             <div className="current_conditions_humidity_container">
